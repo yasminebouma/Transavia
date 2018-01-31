@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transavia</title>
+</head>
+
+<body class="achtergrond">
+
+    <header class="main-header">
+
+
+        <nav>
+            <ul>
+                <li><a href="index.html"><img class="logo" src="/images/transavia-logo%202.svg" alt="Transavia logo"></a></li>
+                <li><a href="opgeslagen.html">Likes</a></li>
+                <li><a href="gedownload.html">Gedownload</a></li>
+                <li><a href="inloggen.html">Inloggen</a></li>
+                <li><a href="instellingen.html"><img id="setting-button" src="images/settings.svg" alt="instellingen"></a></li>
+                <li><a href="menu.html"><img class="hamburger" src="images/hamburger_menu.png" alt="menu"></a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <form>
+        <fieldset>
+            <h2> Zoek je verhaal</h2>
+            <input type="text" placeholder="Typ hier" name="search">
+            <h4> Filteren </h4>
+            <select>
+                  <option value="Leestijd">Lezers:</option>
+                  <option value="kort"> +200 views</option>
+                  <option value="medium">+400 views</option>
+                  <option value="lang">+600 views</option>
+            </select>
+            <select>
+                  <option value="Leestijd">Populariteit:</option>
+                  <option value="comments"> aantal comments</option>
+                  <option value="likes"> aantal likes </option>
+                  <option value="shares"> aantal shares</option>
+            </select>
+            <div>
+                <p>Leestijd in minuten: <span id="demo"></span></p>
+                <label for="myRange"></label>
+                <input class="slider" type="range" min="1" max="15" value="1" id="myRange">
+            </div>
+
+
+            <input id="submitknop" type="checkbox">
+            <label for="submitknop" class="button">Zoek</label>
+            <div class="spinner"></div>
+
+
+        </fieldset>
+    </form>
+
+
+    <section>
+        <h1> Aanbevolen </h1>
+        <article>
+            <div class="card">
+                <a href="verhaal_een.html">
+                   <img class="artikelfoto" src="images/kinderboek_beertje.jpg" alt="teddybeer met schaapen" style="width:100%"></a>
+
+                <h3> <img src="images/leestijd_5.png" alt="5 minuten"> #75 Kinderboek <img id="heart_off" src="images/heart_27.png" alt="like-button"></h3>
+
+            </div>
+        </article>
+
+        <article>
+            <div class="card">
+                <a href="verhaal_drie.html">
+                   <img class="artikelfoto" src="images/leon_2.jpg" alt="foto van leon de winter" style="width:100%"></a>
+
+                <h3> <img src="images/leestijd_3.png" alt="3 minuten"> #64 Leon de Winter <img src="images/heart_27.png" alt="like-button"></h3>
+            </div>
+        </article>
+
+        <article>
+            <div class="card">
+                <a href="verhaal_twee.html">
+                   <img class="artikelfoto" src="images/manager_hands.jpg" alt="Man in pak met handen omhoog" style="width:100%"></a>
+
+                <h3> <img src="images/leestijd_9.png" alt="9 minuten"> #54 Managerstaal <img src="images/heart_27.png" alt="like-button"> </h3>
+            </div>
+        </article>
+    </section>
+
+
+    <section>
+        <h1> Populair </h1>
+
+        <article>
+            <div class="card">
+                <a href="verhaal_drie.html">
+                   <img class="artikelfoto" src="images/moe.jpg" alt="vermoeide man" style="width:100%"></a>
+
+                <h3> <img src="images/leestijd_3.png" alt="3 minuten"> #38 Moe <img src="images/heart_27.png" alt="like-button"></h3>
+            </div>
+        </article>
+
+        <article>
+
+            <div class="card">
+                <a href="verhaal_een.html">
+                <img class="artikelfoto" src="images/tropisch_eiland.jpg" alt="Tropisch eiland" style="width:100%"></a>
+                <h3> <img src="images/leestijd_5.png" alt="5 minuten">#82 Toeristische <img src="images/heart_27.png" alt="like-button"></h3>
+            </div>
+        </article>
+
+        <article>
+            <div class="card">
+                <a href="verhaal_twee.html">
+                   <img class="artikelfoto" src="images/interview.png" alt="Mensen om een tafel" style="width:100%"></a>
+
+                <h3> <img src="images/leestijd_7.png" alt="7 minuten"> #78 Interview <img src="images/heart_27.png" alt="like-button"> </h3>
+            </div>
+        </article>
+    </Section>
+
+    <section>
+        <h1>Genres</h1>
+        <ul>
+            <li><img src="/images/buggy.png" alt="buggy icon"> Kinderen </li>
+            <li><img src="/images/windmolen.png" alt="windmolen">Amsterdam</li>
+            <li><img src="/images/worstje.png" alt="worstje">Eten</li>
+            <li><img src="images/rome.png" alt="colloseum">Geschiedenis</li>
+        </ul>
+    </section>
+
+
+    <footer>
+        <p>All rights reserverd copyright 2018&copy; Transavia </p>
+    </footer>
+
+    <script src="./assets/script.js"></script>
+
+</body>
+
+</html>

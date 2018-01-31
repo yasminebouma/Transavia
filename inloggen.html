@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/main.css">
+    <meta name="viewport" content="widt=device-width, initial-scale=1.0">
+    <title>Transavia</title>
+</head>
+
+<body class="achtergrond">
+
+    <header class="main-header">
+
+
+        <nav>
+            <ul>
+                <li><a href="index.html"><img class="logo" src="/images/transavia-logo%202.svg" alt="Transavia logo"></a></li>
+                <li><a href="opgeslagen.html">Likes</a></li>
+                <li><a href="gedownload.html">Gedownload</a></li>
+                <li><a href="inloggen.html">Inloggen</a></li>
+                <li><a href="instellingen.html"><img id="setting-button" src="images/settings.svg" alt="instellingen"></a></li>
+                <li><a href="menu.html"><img class="hamburger" src="images/hamburger_menu.png" alt="menu"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div class="grid_container">
+
+    <form>
+        <fieldset>
+
+            <h1> Inloggen </h1>
+            <label for="gebruikersnaam">Gebruikersnaam</label>
+            <input id="gebruikersnaam" type="text" name="username" required>
+            <label for="password">Wachtwoord</label><br>
+            <input id="password" type="password" name="psw" required>
+            <button class="button" type="submit">Log in</button>
+        </fieldset>
+    </form>
+
+
+
+
+    <form>
+        <fieldset>
+            <h1>Aanmelden</h1>
+            <label for="voornaam">Voornaam</label>
+            <input id="voornaam" type="text" name="naam" required>
+
+            <label for="achternaam">Achternaam</label>
+            <input id="achternaam" type="text" name="achternaam" required>
+
+            <label for="geboortedatum"> Geboortedatum </label>
+            <input id="geboortedatum" type="date" placeholder="dd-mm-jjjj" name="Geboortedatum" required>
+
+
+            <label for="man" class="gender_choice">Man</label>
+            <input id="man" type="radio" name="gender" value="Male" checked>
+
+            <label for="vrouw" class="gender_choice">Vrouw</label>
+            <input id="vrouw" type="radio" name="gender" value="Female">
+
+            <label for="other" class="gender_choice">Genderneutraal</label>
+            <input id="other" type="radio" name="gender" value="Other">
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="tom.broek@gmail.com" name="email" required>
+
+            <label for="psw">Wachtwoord</label>
+            <input id="psw" type="password" placeholder="Minimaal 6 tekens" name="psw" required>
+
+            <label for="repeat">Herhaal wachtwoord</label>
+            <input id="repeat" type="password" name="psw-repeat" required>
+
+
+
+            <label for="checkbox">Aangemeld blijven</label>
+            <input id="checkbox" type="checkbox" checked="checked">
+            <button class="button" type="">Aanmelden</button>
+        </fieldset>
+    </form>
+    </div>
+
+
+    <footer>
+        <p>All rights reserverd copyright 2018&copy; Transavia </p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
